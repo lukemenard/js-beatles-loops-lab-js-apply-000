@@ -36,6 +36,9 @@ function johnLennonFacts(facts){
       // 'johnLennonFacts' accepts one parameter, 'facts'
   
   var array = [];
+  // 2. Defines the local variable 'array' WITHIN 'johnLennonFacts'
+      // Assigns 'array' an empty array
+  
   let i = 0;
   while (i < facts.length){
     array.push(facts[i] + "!!!");i++;
@@ -43,8 +46,7 @@ function johnLennonFacts(facts){
   return array;
 }
 
-// 2. Defines the local variable 'array' WITHIN 'johnLennonFacts'
-      // Assigns 'array' an empty array
+
 // 3. Defines the local variable 'i' WITHIN 'johnLennonFacts'
       // Assigns 'i' the integer 0
 // 4. Executes a while loop
