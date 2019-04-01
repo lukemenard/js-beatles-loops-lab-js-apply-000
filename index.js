@@ -46,17 +46,18 @@ function johnLennonFacts(facts){
   while (i < facts.length){
     array.push(facts[i] + "!!!");i++;
   }
+  // 4. Executes a while loop
+      // Condition: confirms that 'i' is less than the count of 'facts.' If boolean true, the loop is executed.
+      // Loop Body: as the loop iterates, it adds a string concatanation to the end of 'array':
+            // Fact (corresponding with the 'i' value in question)
+            // the string '!!!''
+        // i++ increments 'i' to the next fact after the loop is executed
+  
   return array;
 }
+// 5. Returns the entirety of the array 'array'
+      // A string of facts with exclamation points
 
-
-
-// 4. Executes a while loop
-      // Condition: confirms that 'i' is less than the count of 'facts.' If boolean true, the loop is executed.
-      // Loop Body: as the loop iterates, adds a string concatanation to the end of the array 'array'
-            // Fact (corresponding with the 'i' value in question)!!!
-            // i++ increments 'i' to the next fact after the loop is executed
-//5. Returns the entirety of the array 'array'
 
 function iLoveTheBeatles(number){
   var array = [];
@@ -67,7 +68,8 @@ function iLoveTheBeatles(number){
   while (number < 15);
   return array;
 }
-// 1. Defines the function 'iLoveTheBeatles' that accepts one parameter, 'number'
+// 1. Defines the function 'iLoveTheBeatles' that
+      //accepts one parameter, 'number'
 // 2. Defines the local variable 'array' WITHIN 'iLoveTheBeatles'
       // Assigns 'array' an empty array
 // 3. Executes a do-while loop
