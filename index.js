@@ -1,16 +1,20 @@
 function theBeatlesPlay(musicians, instruments){
+// 1. Defines the function 'theBeatlesPlay' that will return an array of strings containing what instrument each musician plays
+      // 'theBeatlesPlay' accepts two parameters, 'musicians' and 'instruments'
+      
   var array = [];
-  let i = 0;
-  for (i; i < musicians.length; i++){
+ // 2. Defines the local variable 'array' WITHIN 'theBeatlesPlay'
+      // Assigns 'array' an empty array
+ 
+  
+  for (let i = 0; i < musicians.length; i++){
     array.push(musicians[i] + ' plays ' + instruments[i]);
   }
   return array;
 }
-// 1. Defines the function 'theBeatlesPlay' that accepts two parameters, 'musicians' and 'instruments'
-// 2. Defines the local variable 'array' WITHIN 'theBeatlesPlay'
-      // Assigns 'array' an empty array
-// 3. Defines the local variable 'i' WITHIN 'theBeatlesPlay'
-      // Assigns 'i' the integer 0
+
+
+
 // 4. Executes a for loop
       // Initializtion: confirms 'i' as the control variable
       // Condition: confirms that 'i' is less than the count of 'musicians.' If boolean true, the loop is executed.
