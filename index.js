@@ -40,6 +40,9 @@ function johnLennonFacts(facts){
       // Assigns 'array' an empty array
   
   let i = 0;
+  // 3. Defines the local variable 'i' WITHIN 'johnLennonFacts'
+      // Assigns 'i' the integer 0
+  
   while (i < facts.length){
     array.push(facts[i] + "!!!");i++;
   }
@@ -47,8 +50,7 @@ function johnLennonFacts(facts){
 }
 
 
-// 3. Defines the local variable 'i' WITHIN 'johnLennonFacts'
-      // Assigns 'i' the integer 0
+
 // 4. Executes a while loop
       // Condition: confirms that 'i' is less than the count of 'facts.' If boolean true, the loop is executed.
       // Loop Body: as the loop iterates, adds a string concatanation to the end of the array 'array'
