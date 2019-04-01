@@ -60,21 +60,24 @@ function johnLennonFacts(facts){
 
 
 function iLoveTheBeatles(number){
+  // 1. Defines the function 'iLoveTheBeatles' that repeatedly returns the string 'I love the Beatles!'
+      // 'iLoveTheBeatles' accepts one parameter, 'number'
+  
   var array = [];
+  // 2. Defines the local variable 'array' WITHIN 'iLoveTheBeatles'
+      // Assigns 'array' an empty array
+  
   do {
     array.push("I love the Beatles!");
     number++;
   }
   while (number < 15);
+  // 3. Executes a do-while loop
+      // While Condition: confirms that the entered number is less than 15. If boolean true, the loop is executed.
+      // Do Loop Body: as the loop iterates, adds the string "I love the Beatles!" to the end of the array 'array'
+            // number++ increments the entered number after the loop is executed
+  
   return array;
 }
-// 1. Defines the function 'iLoveTheBeatles' that
-      //accepts one parameter, 'number'
-// 2. Defines the local variable 'array' WITHIN 'iLoveTheBeatles'
-      // Assigns 'array' an empty array
-// 3. Executes a do-while loop
-      // Condition: confirms that the entered number is less than 15. If boolean true, the loop is executed.
-      // Loop Body: as the loop iterates, adds the string "I love the Beatles!" to the end of the array 'array'
-            // number++ increments the entered number after the loop is executed
 //5. Returns the entirety of the array 'array'
       //The number of times "I love the Beatles" is returned is the difference of 15 - the entered number
