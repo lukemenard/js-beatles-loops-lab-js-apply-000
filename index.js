@@ -32,6 +32,9 @@ const facts = [
       // Assigns 'facts' an array that includes four strings
 
 function johnLennonFacts(facts){
+  // 1. Defines the function 'johnLennonFacts' that will return a string of facts with exclamation points
+      // 'johnLennonFacts' accepts one parameter, 'facts'
+  
   var array = [];
   let i = 0;
   while (i < facts.length){
@@ -39,7 +42,7 @@ function johnLennonFacts(facts){
   }
   return array;
 }
-// 1. Defines the function 'johnLennonFacts' that accepts one parameter, 'facts'
+
 // 2. Defines the local variable 'array' WITHIN 'johnLennonFacts'
       // Assigns 'array' an empty array
 // 3. Defines the local variable 'i' WITHIN 'johnLennonFacts'
