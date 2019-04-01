@@ -10,18 +10,16 @@ function theBeatlesPlay(musicians, instruments){
   for (let i = 0; i < musicians.length; i++){
     array.push(musicians[i] + ' plays ' + instruments[i]);
   }
-  return array;
-}
-
-
-
-// 4. Executes a for loop
-      // Initializtion: confirms 'i' as the control variable
+// 3. Executes a for loop
+      // Initializtion: confirms 'i' as the control variable and assigns it the integer 0
       // Condition: confirms that 'i' is less than the count of 'musicians.' If boolean true, the loop is executed.
       // Iteration: i++ increments the control variable 'i' after the loop is executed
       // Loop Body: as the loop iterates, adds a string concatanation to the end of the array 'array'
-            // Musician (corresponding with the 'i' value in question) plays instrument (corresponding with the 'i' value in question)
-//5. Returns the entirety of the array 'array'
+            // Musician (corresponding with the 'i' value in question) plays instrument (corresponding with the 'i' value in question)  
+  
+  return array;
+}
+// 4. Returns the entirety of the array 'array'
 
 
 const facts = [
@@ -30,8 +28,8 @@ const facts = [
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ];
-// Defines a constant global variable 'facts'
-// Assigns 'facts' an array that includes four strings
+// 1. Defines a constant global variable 'facts'
+      // Assigns 'facts' an array that includes four strings
 
 function johnLennonFacts(facts){
   var array = [];
